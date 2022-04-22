@@ -1,0 +1,20 @@
+{
+    "name": "kevin_oliva/proyectofinal",
+    "description": "Creando el Proyecto Final del curso de BD 2",
+    "type": "proyect",
+    "authors": [{
+        "name": "Kevin Oliva",
+        "email": "kefer01@gmail.com"
+    }],
+    "require": {
+        "intervention/image": "^2.7",
+        "vlucas/phpdotenv": "^5.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Model\\": "./models",
+            "MVC\\": "./",
+            "Controllers\\": "./Controllers"
+        }
+    }
+}

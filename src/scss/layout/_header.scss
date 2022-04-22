@@ -1,0 +1,17 @@
+.header {
+    background-color: $amarillo;
+    padding: 1rem 0 1rem 0;
+}
+
+.contenido-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    h1 {
+        text-align: left;
+        color: $blanco;
+        font-weight: $bold;
+        line-height: 2;
+        max-width: 60rem;
+    }
+}

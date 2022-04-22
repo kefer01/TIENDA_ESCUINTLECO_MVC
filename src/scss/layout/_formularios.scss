@@ -1,0 +1,122 @@
+.formulario {
+    fieldset {
+        margin-bottom: 1rem;
+    }
+    p {
+        font-size: 1.4rem;
+        color: $grisOscuro;
+        margin: 2rem 0 0 0;
+    }
+    legend {
+        font-size: 2rem;
+        color: $grisOscuro;
+    }
+    label {
+        font-weight: $bold;
+        text-transform: uppercase;
+        display: block;
+    }
+    input:not([type="submit"]),
+    textarea,
+    select {
+        padding: 1rem;
+        display: block;
+        width: 100%;
+        background-color: $blanco;
+        border: 1px solid $grisOscuro;
+        border-radius: 1rem;
+        margin-bottom: 2rem;
+    }
+    textarea {
+        height: 30rem;
+    }
+}
+
+.factura {
+    background-color: #9cda9f;
+    border: 1px solid #246327;
+    border-radius: 10px;
+}
+
+.datos-cliente,
+.datos-venta {
+    width: 100%;
+    max-width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+.form-venta {
+    background-color: #e3ecef;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    border: 2px solid #78909c;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 1rem;
+}
+
+.action_cliente {
+    display: flex;
+    align-items: center;
+    a {
+        margin-top: 0;
+        &.ocultar {
+            display: none;
+        }
+    }
+    h4 {
+        margin: 1rem 1rem 1rem 0;
+    }
+}
+
+.borde-tabla {
+    max-width: 90%;
+    margin: auto;
+    border: 2px solid #78909c;
+    padding: 0;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.tabla-venta {
+    width: 100%;
+    margin: auto;
+    border-spacing: 0;
+    border-radius: 10px;
+    .tabla-titles {
+        background-color: #0e5a80;
+    }
+    tbody,
+    thead {
+        th {
+            color: $blanco;
+            text-transform: uppercase;
+        }
+        background-color: #e3ecef;
+        a {
+            margin: 1rem;
+        }
+        tr {
+            td {
+                .input-cod {
+                    margin: auto;
+                    max-width: 40%;
+                    display: flex;
+                }
+            }
+        }
+        .text-tbl {
+            max-width: 100%;
+        }
+    }
+    tfoot {
+        background-color: #e3ecef;
+        td {
+            font-weight: bold;
+        }
+    }
+}
