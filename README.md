@@ -2,9 +2,10 @@
 Proyecto MVC con PHP 8 SQL-Server CSS y Javascript
 
 Algunas caracteristicas:
-**Hasheo de Contraseñas para los usuarios
-**URL´s Protegidas
-**Uso de Variables de Sesion
+
+*Hasheo de Contraseñas para los usuarios
+*URL´s Protegidas
+*Uso de Variables de Sesion
 
 Logeo con BD SQL Server
 ![image](https://user-images.githubusercontent.com/62972995/168210378-9d4294ef-6943-487d-9a5c-174f0d9b4c17.png)
